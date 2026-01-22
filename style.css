@@ -1,0 +1,105 @@
+/* Tambahkan di akhir style.css */
+
+/* Admin Styles */
+.admin-only {
+    background: rgba(245, 158, 11, 0.1);
+    border: 2px solid #f59e0b;
+    border-radius: 8px;
+    padding: 10px 15px;
+    font-size: 0.9rem;
+    color: #92400e;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.admin-only i {
+    color: #f59e0b;
+}
+
+.admin-note {
+    text-align: center;
+    background: #f0f9ff;
+    padding: 15px;
+    border-radius: 10px;
+    margin: 20px auto;
+    max-width: 600px;
+    border: 2px dashed #3b82f6;
+}
+
+.admin-note code {
+    background: #1e3a8a;
+    color: white;
+    padding: 3px 8px;
+    border-radius: 4px;
+    font-family: 'Courier New', monospace;
+}
+
+.admin-instruction {
+    background: #f8fafc;
+    border: 2px solid #e2e8f0;
+    border-radius: 15px;
+    padding: 25px;
+    margin-top: 40px;
+}
+
+.admin-instruction ul {
+    list-style: none;
+    margin-top: 15px;
+}
+
+.admin-instruction li {
+    padding: 10px 0;
+    border-bottom: 1px solid #e2e8f0;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.admin-instruction li:last-child {
+    border-bottom: none;
+}
+
+.admin-instruction li:before {
+    content: '✓';
+    color: #10b981;
+    font-weight: bold;
+}
+
+.admin-note-box {
+    background: linear-gradient(135deg, #f0f9ff, #e0f2fe);
+    border-radius: 15px;
+    padding: 30px;
+    margin-top: 40px;
+    border: 2px solid #3b82f6;
+}
+
+.admin-note-box h4 {
+    color: #1e3a8a;
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.admin-note-box pre {
+    background: #1e293b;
+    color: #e2e8f0;
+    padding: 20px;
+    border-radius: 10px;
+    overflow-x: auto;
+    margin-top: 15px;
+    font-family: 'Courier New', monospace;
+    font-size: 0.9rem;
+}
+
+.admin-steps {
+    list-style-type: decimal;
+    padding-left: 20px;
+    margin-top: 10px;
+}
+
+.admin-steps li {
+    padding: 5px 0;
+    color: #475569;
+}
